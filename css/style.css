@@ -12,28 +12,32 @@ body{
     margin: 0;
     padding: 0;
     font-family: paloseco;
-}
-
-.banner-image{
-    background-color: white;
+    background-image: url(../assets/1.png);
     background-size: cover;
-    
+    z-index: -1;
 }
 
-.a-navbar{
-    color: black;
+.banner-imge{
+    background-image: url(../assets/1.png);
     
+    background-size: cover;
 }
 
-.nav{
+.i{
+    background-image: url(../assets/1.png);
+    background-size: cover;
+}
+
+
+.bg-color{
     background-color: white;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
     transition: all 0.5s;
-
+    
 }
 
-.bg-color{
-    background-color: #7B6A58;
+.cuadrocoso{
+    background-color: white;
 }
 
 .texto-negro{
@@ -45,3 +49,4 @@ body{
     color: white;
     transition: all 0.5s;
 }
+
