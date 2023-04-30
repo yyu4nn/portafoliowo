@@ -2,36 +2,38 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: paloseco;
+    src: url(../fonts/Paloseco-LightItalic.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
+    font-family: paloseco;
 }
-
-
 
 .banner-image{
     background-color: white;
     background-size: cover;
+    
 }
 
 .a-navbar{
     color: black;
+    
 }
 
-.header a{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2000;
-    display: flex;
-    justify-content: space-around;
-    transition: 0.5s;
+.nav{
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s;
+    color: white;
+
 }
 
-.heaer ul a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.awdawdwad{
+    background-color: aqua;
 }
 
