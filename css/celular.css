@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+
+    body{
+        overflow-x: visible;
+    }
+
+    .menu{
+        width: 100%;
+        height: 165vw;
+        z-index: 1;
+    }
+    
+
+    .menuvid{
+        width: 100%;
+        position: relative;
+        right: 150px;
+        bottom: 70px;
+    }
+
+    .menu2{
+        width: 100%;
+        position: relative;
+        right: 0px;
+        bottom: 200px;
+    }
+
+    .port1{
+        width: 50%;
+        font-family: paloseco;
+        position: relative;
+        top: 570px;
+        left: 225px;
+        font-size: 1.9rem;
+        z-index: 1;
+    }
+
+  }

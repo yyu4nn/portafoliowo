@@ -89,9 +89,11 @@ body{
 
 .menu{
     z-index: 1;
+
 }
 
 .menuvid{
+    width: 45%;
     margin-left: 150px;
     position: relative;
     bottom: 30px;
@@ -104,7 +106,6 @@ body{
     position: relative;
     right: 130px;
     bottom: 28px;
-
 }
 
 .port1{
@@ -161,3 +162,4 @@ body{
     bottom: 115px;
     z-index: 1;
 }
+
