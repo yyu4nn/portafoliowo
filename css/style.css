@@ -85,69 +85,79 @@ body{
     border-top: 2px solid black ;
     height: 1px;
     border-radius: 100%;
-    z-index: 9999;
 }
 
 .menu{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    position: relative;
-    bottom: 40px;
     z-index: 1;
-
 }
 
-.menuvideo{
+.menuvid{
+    margin-left: 150px;
     position: relative;
-    right: 110px;
-    width: 80%;
+    bottom: 30px;
+    right: 40px;
 }
 
 
 .menu2{
-    width: 37%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+    width: 41%;
     position: relative;
-    bottom: 729px;
-    left: 658px;
+    right: 130px;
+    bottom: 28px;
+
 }
 
 .port1{
+    width: 30%;
     font-family: paloseco;
     position: relative;
-    bottom: 555px;
-    left: 515px;
+    top: 80px;
+    left: 500px;
     font-size: 2rem;
-    z-index: 9999;
+    z-index: 1;
     
 }
 
 .port2{
-    font-family: paloseco;
-    position: relative;
-    bottom: 555px;
-    left: 810px;
-    font-size: 2rem;
-    z-index: 9999;
-    
-}
-
-.port3{
+    width: 15%;
     font-family: palosecomedium;
     position: relative;
-    bottom: 213px;
-    left: 983px;
+    bottom: 120px;
+    left: 1024px;
     font-size: 2rem;
-    z-index: 9999;
+    z-index: 1;
     
 }
 
-.qnsoy1{
-    background-color: red;
+.qnh1{
+    font-family: palosecomedium;
+    width: 130%;
+    position: relative;
+    right: 20px;
+    color: rgb(201, 185, 185);
+}
+
+.qnh1-1{
+    font-family: palosecomedium;
+    width: 140%;
+    position: relative;
+    right: 40px;
+    color: rgb(201, 185, 185);
+}
+
+.sobre-mi{
+    width: 100%;
+    height: 57vw;
+}
+
+.yo{
+    background-color:#CBBBA0;
+    opacity: 1;
+    border-radius: 10px;
+    border: 10px;
+    border-color: black;
+    width: 33%;
+    position: relative;
+    bottom: 115px;
+    z-index: 1;
 }
