@@ -14,8 +14,9 @@
 }
 
 .jh1{
-    font-family: palosecomedium;
-    margin-right: 100px;
+    font-family: palosemedium;
+    font-style: medium;
+    
 }
 
 body{
@@ -80,6 +81,12 @@ body{
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+.linea2{
+    border-top: 2px solid black ;
+    height: 1px;
+    border-radius: 100%;
+    z-index: 9999;
+}
 
 .menu{
     width: 100%;
@@ -87,11 +94,60 @@ body{
     justify-content: center;
     align-items: center;
     background-size: cover;
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+
 }
 
-.yop{
-    background-color: black;
-    width: 40%;
-    background-repeat: no-repeat;
-    z-index: 1;
+.menuvideo{
+    position: relative;
+    right: 110px;
+    width: 80%;
+}
+
+
+.menu2{
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    bottom: 729px;
+    left: 658px;
+}
+
+.port1{
+    font-family: paloseco;
+    position: relative;
+    bottom: 555px;
+    left: 515px;
+    font-size: 2rem;
+    z-index: 9999;
+    
+}
+
+.port2{
+    font-family: paloseco;
+    position: relative;
+    bottom: 555px;
+    left: 810px;
+    font-size: 2rem;
+    z-index: 9999;
+    
+}
+
+.port3{
+    font-family: palosecomedium;
+    position: relative;
+    bottom: 213px;
+    left: 983px;
+    font-size: 2rem;
+    z-index: 9999;
+    
+}
+
+.qnsoy1{
+    background-color: red;
 }
