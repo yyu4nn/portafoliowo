@@ -89,53 +89,53 @@ body{
 
 .menu{
     z-index: 1;
+    height: 105vh;
 
 }
 
 .menuvid{
-    width: 45%;
+    width: 50%;
     margin-left: 150px;
     position: relative;
-    bottom: 30px;
+    bottom: 260px;
     right: 40px;
 }
 
 
 .menu2{
-    width: 41%;
+    width: 42%;
     position: relative;
-    right: 130px;
-    bottom: 28px;
+    right: 170px;
+    bottom: 190px;
 }
 
 .port1{
-    width: 30%;
+    width: 40%;
     font-family: paloseco;
     position: relative;
     top: 80px;
-    left: 500px;
-    font-size: 2rem;
+    left: 550px;
+    font-size: 3.5rem;
     z-index: 1;
     
 }
 
 .port2{
-    width: 15%;
+    width: 35%;
     font-family: palosecomedium;
     position: relative;
-    bottom: 120px;
-    left: 1024px;
-    font-size: 2rem;
+    top: 640px;
+    left: 1360px;
+    font-size: 4rem;
     z-index: 1;
     
 }
 
 .qnh1{
     font-family: palosecomedium;
-    width: 130%;
+    width: 200%;
     position: relative;
     right: 20px;
-    color: rgb(201, 185, 185);
 }
 
 .qnh1-1{
@@ -148,18 +148,60 @@ body{
 
 .sobre-mi{
     width: 100%;
-    height: 57vw;
+    height: 50vw;
 }
 
 .yo{
     background-color:#CBBBA0;
+    padding: 1%;
     opacity: 1;
     border-radius: 10px;
     border: 10px;
     border-color: black;
     width: 33%;
     position: relative;
-    bottom: 115px;
+    bottom: 90px;
+    right: 40px;
     z-index: 1;
+}
+
+.qn-1{
+    border: 10px solid #80725b;
+    padding: 2%;
+    border-radius: 10px;
+    width: 50%;
+
+    font-family: paloseco;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    font-size: 2.5rem;
+}
+
+.qn-2{
+    width: 50%;
+    padding: 2%;
+
+    font-family: paloseco;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success{
+    width: 25%;
+    height: 3vw;
+    background-color: #C3B49B;
+    border: 0px;
+
+}
+
+.btn-success:hover{
+    background-color: red;
+
 }
 

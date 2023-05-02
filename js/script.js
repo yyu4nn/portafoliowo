@@ -10,7 +10,6 @@ window.addEventListener('load', () => {
 });
 
 
-
 var nav = document.querySelector('nav');
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > 550) {
@@ -19,6 +18,8 @@ var nav = document.querySelector('nav');
             nav.classList.remove('navbar-scrolled', 'shadow', 'texto-blanco');
         }
         });
+
+
 
 
 
