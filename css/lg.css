@@ -2,7 +2,6 @@
 
     body{
         overflow-x: hidden;
-        background-color: red;
     }
 
     *{
@@ -105,35 +104,36 @@
         border-radius: 100%;
     }
     
+    /* INICIO */
+
     .menu{
         z-index: 1;
-        height: 105vh;
-    
+        height: 103vh;
     }
     
     .menuvid{
-        width: 50%;
+        width: 45%;
         margin-left: 150px;
         position: relative;
-        bottom: 260px;
+        bottom: 135px;
         right: 40px;
     }
     
     
     .menu2{
-        width: 42%;
+        width: 40%;
         position: relative;
-        right: 170px;
-        bottom: 190px;
+        right: 150px;
+        bottom: 125px;
     }
     
     .port1{
-        width: 40%;
+        width: 33%;
         font-family: paloseco;
         position: relative;
-        top: 80px;
-        left: 550px;
-        font-size: 3.5rem;
+        top: 90px;
+        left: 430px;
+        font-size: 2rem;
         z-index: 1;
         
     }
@@ -142,31 +142,33 @@
         width: 35%;
         font-family: palosecomedium;
         position: relative;
-        top: 640px;
-        left: 1360px;
-        font-size: 4rem;
+        top: 430px;
+        left: 955px;
+        font-size: 2.5rem;
         z-index: 1;
         
     }
     
+    /* QUIEN SOY */
+
+    .sobre-mi{
+        width: 100%;
+        height: 45vw;
+    }
+
     .qnh1{
         font-family: palosecomedium;
-        width: 200%;
+        width: 430%;
         position: relative;
         right: 20px;
     }
     
     .qnh1-1{
         font-family: palosecomedium;
-        width: 140%;
+        width: 300%;
         position: relative;
         right: 40px;
         color: black(201, 185, 185);
-    }
-    
-    .sobre-mi{
-        width: 100%;
-        height: 50vw;
     }
     
     .yo{
@@ -176,16 +178,11 @@
         border-radius: 10px;
         border: 10px;
         border-color: black;
-        width: 33%;
+        width: 32%;
         position: relative;
-        bottom: 90px;
+        bottom: 163px;
         right: 40px;
         z-index: 1;
-    }
-    
-    .modal{
-        font-size: 2rem;
-        font-family: acumin;
     }
     
     .qn-1{
@@ -196,9 +193,9 @@
     
         font-family: paloseco;
         position: relative;
-        left: 150px;
-        top: 100px;
-        font-size: 2.5rem;
+        left: 110px;
+        top: 30px;
+        font-size: 2rem;
     }
     
     .qn-2{
@@ -207,48 +204,48 @@
     
         font-family: paloseco;
         position: relative;
-        left: 150px;
-        top: 100px;
+        left: 110px;
+        top: 30px;
         font-size: 2.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-    .btn-success{
-        width: 25%;
-        height: 3vw;
-        background-color: #C3B49B;
-        border: 0px;
-    
+
+    .modal{
+        font-size: 2rem;
+        font-family: acumin;
+        transition: 0.5s;
     }
     
     .btn-success:hover{
-        background-color: red;
+        background-color: #80725b;
     
     }
     
+    /* SERVICIOS */
+
     .servicios{
-        height: 100vh;
+        height: 98vh;
     }
     
     .serv-h1{
         font-family: palosecomediumi;
-        margin-top: 5%;
+        margin-top: 4.5%;
         margin-left: 6%;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     .qhago-1{
         border: 8px solid #80725b;
         padding: 2%;
-        width: 35%;
+        width: 40%;
     
         font-family:acumin;
         position: relative;
         bottom: 150px;
-        left: 900px;
-        font-size: 4rem;
+        left: 650px;
+        font-size: 3rem;
         z-index: 1;
     }
     
@@ -256,12 +253,12 @@
     .qhago-2{
         border: 3px solid black;
         padding: 1%;
-        width: 35%;
+        width: 45%;
     
         font-family:paloseco;
         position: relative;
-        bottom: 200px;
-        left: 280px;
+        bottom: 195px;
+        left: 100px;
         font-size: 2rem;
     }
     
@@ -269,70 +266,46 @@
         background-color: #80725b;
         border: 10px solid #80725b;
         padding: 1%;
-        width: 45%;
+        width: 40%;
     
         font-family:paloseco;
         position: relative;
-        bottom: 300px;
-        left: 900px;
-        font-size: 2rem;
+        bottom: 370px;
+        left: 650px;
+        font-size: 1.7rem;
         color: white;
         z-index: 1;
     }
     
+    /* PROYECTOS */
+
     .proyectos{
-        height: 100vh;
+        height: 70vw;
+    }
+    
+    .proy-1{
+        margin-top: 130px;
+        font-family: paloseco;
+        font-size: 3rem;
+        position: relative;
+        bottom: 60px;
     }
     
     .proy-h1{
         background-color: #CBBBA0;
-        margin-top: 5px;
-        width: 120%;
+        width: 170%;
         font-family: palosecomediumi;
-        font-size: 4rem;
+        font-size: 3.5rem;
         position: relative;
+        bottom: 60px;
         right: 50px;
     }
-    
-    .proy-1{
-        font-family: paloseco;
-        font-size: 4rem;
-        margin-top: 80px;
-    }
-    
+
     .proy-2{
         font-family: paloseco;
-        font-size: 4rem;
+        font-size: 3rem;
+        position: relative;
+        bottom: 60px;
     }
-    
-    .qq{
-        background-color: red;
-    }
-    
-    .q{
-        background-color: blueviolet;
-    }
-    
-    .qqq{
-        background-color: yellow;
-    }
-    
-    
-    .btn-success-1{
-        width: 50%;
-        background-color: #CBBBA0;
-    }
-    
-    
-    .carrusel-items{
-        display: flex;
-        overflow-x: scroll;
-        background-color: #C3B49B;
-    }
-    
-    .carrusel-item h1{
-        object-fit: cover;
-    }
-    
 
 }

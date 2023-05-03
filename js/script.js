@@ -40,29 +40,6 @@ modalBodyInput.value = recipient
 
 
 
-const carrusel = document.querySelector(".carrusel-items");
-
-let maxScrollleft = carrusel.scrollWidth - carrusel.clientWidth;
-let intervalo = null;
-let step = 2;
-const start = () => {
-    intervalo = setInterval(function () {
-        carrusel.scrollleft = carrusel.scrollleft + step;
-        if (carrusel.scrollleft === maxScrollleft) {
-            step = -1;
-        }
-
-    }, 10);
-    
-}
-
-
-const stop = () => {};
-
-start();
-
-
-
 
 
 

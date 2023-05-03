@@ -217,8 +217,7 @@ body{
 }
 
 .btn-success:hover{
-    background-color: red;
-
+    background-color: #80725b;
 }
 
 .servicios{
@@ -298,34 +297,9 @@ body{
     font-size: 4rem;
 }
 
-.qq{
-    background-color: red;
-}
-
-.q{
-    background-color: blueviolet;
-}
-
-.qqq{
-    background-color: yellow;
-}
+/* HASTA ACA ESTAN LOS MEDIA QUERIES !!!!!!!! ACTUALIZAR ////////////////////////////////// */
 
 
-.btn-success-1{
-    width: 50%;
-    background-color: #CBBBA0;
-}
-
-
-.carrusel-items{
-    display: flex;
-    overflow-x: scroll;
-    background-color: #C3B49B;
-}
-
-.carrusel-item h1{
-    object-fit: cover;
-}
 
 
 
