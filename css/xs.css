@@ -5,4 +5,308 @@
         background-color: greenyellow;
     }
 
+    *{
+        box-sizing: border-box;
+    }
+    
+    
+    @font-face {
+        font-family: paloseco;
+        src: url(../fonts/Paloseco-LightItalic.ttf);
+    }
+    
+    @font-face {
+        font-family: palosecomedium;
+        src: url(../fonts/Paloseco-Medium.ttf);
+    }
+    
+    @font-face {
+        font-family: palosecomediumi;
+        src: url(../fonts/Paloseco-MediumItalic.ttf);
+    }
+    
+    @font-face {
+        font-family: acumin;
+        src: url(../fonts/Acumin-ItPro.otf);
+    }
+    
+    
+    .jh1{
+        font-family: palosemedium;
+        font-style: medium;
+        
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: paloseco;
+        overflow-x: hidden;
+    }
+    
+    .spinner-wrapper{
+        background-color: #CBBBA0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.10s;
+    }
+    
+    .spinner-border{
+        height: 60px;
+        width: 60px;
+    }
+    
+    .bg-image{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+    .nav-link{
+        position: relative;
+    }
+    
+    .nav-link::after {
+        content: '';
+        opacity: 0;
+        transition: all 0.2s;
+        height: 2px;
+        width: 100%;
+        background-color: #CBBBA0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .nav-link:hover::after{
+        opacity: 1;
+    }
+    
+    .navbar{
+        transition: 0.4s;
+    }
+    
+    
+    .navbar-scrolled{
+        background-color: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    .linea2{
+        border-top: 2px solid black ;
+        height: 1px;
+        border-radius: 100%;
+    }
+    
+    /* INICIO */
+
+    .menu{
+        z-index: 1;
+        height: 103vh;
+    }
+    
+    .menuvid{
+        width: 45%;
+        margin-left: 150px;
+        position: relative;
+        bottom: 135px;
+        right: 40px;
+    }
+    
+    
+    .menu2{
+        width: 40%;
+        position: relative;
+        right: 150px;
+        bottom: 125px;
+    }
+    
+    .port1{
+        width: 33%;
+        font-family: paloseco;
+        position: relative;
+        top: 90px;
+        left: 430px;
+        font-size: 2rem;
+        z-index: 1;
+        
+    }
+    
+    .port2{
+        width: 35%;
+        font-family: palosecomedium;
+        position: relative;
+        top: 430px;
+        left: 955px;
+        font-size: 2.5rem;
+        z-index: 1;
+        
+    }
+    
+    /* QUIEN SOY */
+
+    .sobre-mi{
+        width: 100%;
+        height: 45vw;
+    }
+
+    .qnh1{
+        font-family: palosecomedium;
+        width: 430%;
+        position: relative;
+        right: 20px;
+    }
+    
+    .qnh1-1{
+        font-family: palosecomedium;
+        width: 300%;
+        position: relative;
+        right: 40px;
+        color: black(201, 185, 185);
+    }
+    
+    .yo{
+        background-color:#CBBBA0;
+        padding: 1%;
+        opacity: 1;
+        border-radius: 10px;
+        border: 10px;
+        border-color: black;
+        width: 32%;
+        position: relative;
+        bottom: 163px;
+        right: 40px;
+        z-index: 1;
+    }
+    
+    .qn-1{
+        border: 10px solid #80725b;
+        padding: 2%;
+        border-radius: 10px;
+        width: 50%;
+    
+        font-family: paloseco;
+        position: relative;
+        left: 110px;
+        top: 30px;
+        font-size: 2rem;
+    }
+    
+    .qn-2{
+        width: 50%;
+        padding: 2%;
+    
+        font-family: paloseco;
+        position: relative;
+        left: 110px;
+        top: 30px;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal{
+        font-size: 2rem;
+        font-family: acumin;
+        transition: 0.5s;
+    }
+    
+    .btn-success:hover{
+        background-color: #80725b;
+    
+    }
+    
+    /* SERVICIOS */
+
+    .servicios{
+        height: 98vh;
+    }
+    
+    .serv-h1{
+        font-family: palosecomediumi;
+        margin-top: 4.5%;
+        margin-left: 6%;
+        font-size: 3rem;
+    }
+    
+    .qhago-1{
+        border: 8px solid #80725b;
+        padding: 2%;
+        width: 40%;
+    
+        font-family:acumin;
+        position: relative;
+        bottom: 150px;
+        left: 650px;
+        font-size: 3rem;
+        z-index: 1;
+    }
+    
+    
+    .qhago-2{
+        border: 3px solid black;
+        padding: 1%;
+        width: 45%;
+    
+        font-family:paloseco;
+        position: relative;
+        bottom: 195px;
+        left: 100px;
+        font-size: 2rem;
+    }
+    
+    .qhago-3{
+        background-color: #80725b;
+        border: 10px solid #80725b;
+        padding: 1%;
+        width: 40%;
+    
+        font-family:paloseco;
+        position: relative;
+        bottom: 370px;
+        left: 650px;
+        font-size: 1.7rem;
+        color: white;
+        z-index: 1;
+    }
+    
+    /* PROYECTOS */
+
+    .proyectos{
+        height: 70vw;
+    }
+    
+    .proy-1{
+        margin-top: 130px;
+        font-family: paloseco;
+        font-size: 3rem;
+        position: relative;
+        bottom: 60px;
+    }
+    
+    .proy-h1{
+        background-color: #CBBBA0;
+        width: 170%;
+        font-family: palosecomediumi;
+        font-size: 3.5rem;
+        position: relative;
+        bottom: 60px;
+        right: 50px;
+    }
+
+    .proy-2{
+        font-family: paloseco;
+        font-size: 3rem;
+        position: relative;
+        bottom: 60px;
+    }
+ 
 }
