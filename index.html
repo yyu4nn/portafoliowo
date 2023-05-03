@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/celular.css">
-    <link rel="stylesheet" media="screen and (max-width: 1600px)" href="css/xl.css">
+
+    <!-- Media queries -->
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="css/xs.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px)" href="css/sm.css">
+    <link rel="stylesheet" media="screen and (min-width: 1280px)" href="css/lg.css">
 
     <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
     <title>Juan Hernández</title>
@@ -46,10 +50,10 @@
                     <a class="nav-link active" href="#Quien-soy">Sobre Mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Servicios</a>
+                    <a class="nav-link active" href="#Servicios">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Proyectos</a>
+                    <a class="nav-link active" href="#Proyectos">Proyectos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Habilidades</a>
@@ -83,7 +87,7 @@
     </section>
 
     <article>
-      <div class="container-fluid sobre-mi" style="background-color: aqua;">
+      <div class="container-fluid sobre-mi" style="background-color: aqa;">
         <div class="row">
           <div class="col-xl-12">
             <h1 class="qnh1" id="Quien-soy">JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ JUAN HERNÁNDEZ <br></h1>
@@ -100,10 +104,37 @@
               <h1 class="qn-1 text-center"> 
                 <strong>Soy un Productor Multimedia enfocado en la creación de piezas graficas digitales, desarrollo web, contenido dedicado a redes sociales y publicidad. <br></strong></h1>
                 
-                <h1 class="qn-2"><button type="button" class="btn btn-success"
-                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                 Contacto
-                </button></h1>   
+                <h1 class="qn-2">
+
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Juanfernando23061@outlook.com">¡Contactame!</button>
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">¡Enviame un mensaje!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Mi correo</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Mensaje</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-success-1">Enviar mensaje</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </h1>   
             </div>
           </div>
         </div>
@@ -111,37 +142,79 @@
     </article>
 
     <Section>
-      <div class="container-fluid" style="background-color: blueviolet;">
-      <div class="row">
-        <div class="col-xl-12">
-          <h1>SERVICIOS SERVICIOS <br> SERVICIOS SERVICIOS <br> SERVICIOS SERVICIOS</h1>
+      <div class="container-fluid" style="background-color:rd;">
+        <div class="row">
+          <div class="col-xl-12 servicios"  id="Servicios">
+            <h1 class="serv-h1 "> <strong>SERVICIOS &nbsp  SERVICIOS<br> SERVICIOS &nbsp  SERVICIOS <br> SERVICIOS &nbsp  SERVICIOS <br> SERVICIOS &nbsp  SERVICIOS</h1></strong>  
 
+            <h1 class="qhago-1">Juanfernando23061 <br>@outlook.com</h1>
+            <h1 class="qhago-2">Diseño Web <br> Diseño Grafico <br> Edicion de Video <br> Animacion <br> Ilustraciones Digitales <br> Publicidad</h1>
+            <h1 class="qhago-3 text-end">Produccion Musical <br> Mastering <br> Edicion de Audio <br> Fotografia <br> Redes Sociales</h1>
+          </div>
         </div>
-      </div>
-    </div>
+     </div>
     </Section>
 
+    <article>
+      <div class="container-fluid" style="background-color: ble;">
+        <div class="row">
+          <div class="col-xl-12 proyectos" id="Proyectos">
 
 
-    <div class="container">
-    <h1>awd</h1>
+<div class="carrusel">
+  <div class="carrusel-items">
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
     </div>
-    
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <h1><strong> PROYECTOS &nbsp</strong></h1>
+    </div>
+    <div class="carrusel-item">
+      <img src="assets/logo.png" alt="">
+    </div>
+  </div>
+</div>
 
-      <div class="container my-5 d-grid gap-5">
-        <div class="p-5 border cuadrocoso">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda eius a autem. Ullam, dolore. Ut, quos numquam magnam aut suscipit ea temporibus dolore quaerat obcaecati dolorem ducimus. Provident, et!
-          </p>
+
+            <h1 class="text-center proy-1">Aqui puedes observar algunos de los</h1>
+            <h1 class="proy-h1"> <strong>PROYECTOS PROYECTOS PROYECTOS PROYECTOS PROYECTOS PROYECTOS</h1></strong>  
+            <h1 class="proy-2 text-center">en los que he hecho parte</h1>
+            <br>
+            <div class="col-xl-6" style="background-color: red;"></div>
+          </div>
         </div>
-      </div>
+     </div>
+
+
+
+
   
 
 
 
     
-    
-    
+  
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 
@@ -152,31 +225,7 @@
 </html>
 
 
-  <div class="trabas2">
-    <button class="mod" id="botonmodal4">
-      <img src="assets/2.png" alt="" width="100%" height="200%">
-    </button>
-    <!-- ventana modal -->
-    <div class="vmodal2" id="vmodal4">
-      <div class="vmodal_container">
-        <div class="vmodal_title">
-          <h1 class="vmti">Brief - Chocolate Andino </h1>
-        </div>
-        <div class="vmodal-des">
-          <p class="vmtext">
-            Brief realizado para la clase de fotografía.
-            <br>
-            Con este brief se buscaba especificar el publico objetivo, concepto, estrategia, entre otros de en este caso la marca/fabrica de chocolate "Chocolate Andino".
-          </p>
-          <div class="mimg">
-            <img src="images/choco.png" class="modal_img" width="40%" alt="">
-          </div>
-          <button type="button" class="btn btn-outline-light but5" id="ocultobtn9">cerrar</button>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
+
 
 
 

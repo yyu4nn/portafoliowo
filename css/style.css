@@ -13,6 +13,17 @@
     src: url(../fonts/Paloseco-Medium.ttf);
 }
 
+@font-face {
+    font-family: palosecomediumi;
+    src: url(../fonts/Paloseco-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: acumin;
+    src: url(../fonts/Acumin-ItPro.otf);
+}
+
+
 .jh1{
     font-family: palosemedium;
     font-style: medium;
@@ -165,6 +176,11 @@ body{
     z-index: 1;
 }
 
+.modal{
+    font-size: 2rem;
+    font-family: acumin;
+}
+
 .qn-1{
     border: 10px solid #80725b;
     padding: 2%;
@@ -204,4 +220,115 @@ body{
     background-color: red;
 
 }
+
+.servicios{
+    height: 100vh;
+}
+
+.serv-h1{
+    font-family: palosecomediumi;
+    margin-top: 5%;
+    margin-left: 6%;
+    font-size: 4rem;
+}
+
+.qhago-1{
+    border: 8px solid #80725b;
+    padding: 2%;
+    width: 35%;
+
+    font-family:acumin;
+    position: relative;
+    bottom: 150px;
+    left: 900px;
+    font-size: 4rem;
+    z-index: 1;
+}
+
+
+.qhago-2{
+    border: 3px solid black;
+    padding: 1%;
+    width: 35%;
+
+    font-family:paloseco;
+    position: relative;
+    bottom: 200px;
+    left: 280px;
+    font-size: 2rem;
+}
+
+.qhago-3{
+    background-color: #80725b;
+    border: 10px solid #80725b;
+    padding: 1%;
+    width: 45%;
+
+    font-family:paloseco;
+    position: relative;
+    bottom: 300px;
+    left: 900px;
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+}
+
+.proyectos{
+    height: 100vh;
+}
+
+.proy-h1{
+    background-color: #CBBBA0;
+    margin-top: 5px;
+    width: 120%;
+    font-family: palosecomediumi;
+    font-size: 4rem;
+    position: relative;
+    right: 50px;
+}
+
+.proy-1{
+    font-family: paloseco;
+    font-size: 4rem;
+    margin-top: 80px;
+}
+
+.proy-2{
+    font-family: paloseco;
+    font-size: 4rem;
+}
+
+.qq{
+    background-color: red;
+}
+
+.q{
+    background-color: blueviolet;
+}
+
+.qqq{
+    background-color: yellow;
+}
+
+
+.btn-success-1{
+    width: 50%;
+    background-color: #CBBBA0;
+}
+
+
+.carrusel-items{
+    display: flex;
+    overflow-x: scroll;
+    background-color: #C3B49B;
+}
+
+.carrusel-item h1{
+    object-fit: cover;
+}
+
+
+
+
+
 
