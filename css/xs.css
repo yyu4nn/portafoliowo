@@ -64,13 +64,14 @@
     }
     
     .bg-image{
-        width: 100%;
-        height: 100%;
-        z-index: -1;
+        width: 0%;
+        height: 0vw;
+        background-color: aqua;
     }
     
     .nav-link{
         position: relative;
+        background-color: white;
     }
     
     .nav-link::after {
@@ -91,6 +92,8 @@
     
     .navbar{
         transition: 0.4s;
+        background-color: white;
+        width: 100vw;
     }
     
     
@@ -100,9 +103,8 @@
     }
     
     .linea2{
-        border-top: 2px solid black ;
-        height: 1px;
-        border-radius: 100%;
+        border-top: 0px solid black ;
+        height: 0px;
     }
     
     /* INICIO */
@@ -110,30 +112,29 @@
     .menu{
         z-index: 1;
         height: 103vh;
+        background-color: aqua;
     }
     
     .menuvid{
-        width: 45%;
-        margin-left: 150px;
+        width: 100%;
+        margin-left: 40px;
         position: relative;
-        bottom: 135px;
-        right: 40px;
+        bottom: 150px;
     }
     
-    
     .menu2{
-        width: 40%;
+        width: 100%;
         position: relative;
-        right: 150px;
-        bottom: 125px;
+        right: 0px;
+        bottom: 270px;
     }
     
     .port1{
-        width: 33%;
+        width: 50%;
         font-family: paloseco;
         position: relative;
-        top: 90px;
-        left: 430px;
+        top: 540px;
+        left: 190px;
         font-size: 2rem;
         z-index: 1;
         
@@ -143,9 +144,9 @@
         width: 35%;
         font-family: palosecomedium;
         position: relative;
-        top: 430px;
-        left: 955px;
-        font-size: 2.5rem;
+        top: 340px;
+        left: 50px;
+        font-size: 1.6rem;
         z-index: 1;
         
     }
